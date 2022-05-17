@@ -30,17 +30,13 @@ def get_data(categories, files):
         encoding = detect(content)['encoding']
         with open(file, encoding=encoding) as f:
             text = f.read()
-        re_code = fr'({categories[0]}:[ ]+)(\b[-\w ]+)'
-        match = re.search(re_code, text)
+        match = re.search(fr'({categories[0]}:[ ]+)(\b[-\w ]+)', text)
         os_prod_list.append(match[2])
-        re_code = fr'({categories[1]}:[ ]+)(\b[-\w ]+)'
-        match = re.search(re_code, text)
+        match = re.search(fr'({categories[1]}:[ ]+)(\b[-\w ]+)', text)
         os_name_list.append(match[2])
-        re_code = fr'({categories[2]}:[ ]+)(\b[-\w ]+)'
-        match = re.search(re_code, text)
+        match = re.search(fr'({categories[2]}:[ ]+)(\b[-\w ]+)', text)
         os_code_list.append(match[2])
-        re_code = fr'({categories[3]}:[ ]+)(\b[-\w ]+)'
-        match = re.search(re_code, text)
+        match = re.search(fr'({categories[3]}:[ ]+)(\b[-\w ]+)', text)
         os_type_list.append(match[2])
     matrix = [os_prod_list, os_name_list, os_code_list, os_type_list]
     trans_matrix = [[matrix[i][j] for i in range(len(matrix))] for j in range(len(matrix[0]))]
