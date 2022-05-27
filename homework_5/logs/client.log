@@ -1,0 +1,10 @@
+2022-05-28 09:19:49,711 DEBUG client_log_config.py debug
+2022-05-28 09:19:49,711 INFO client_log_config.py info
+2022-05-28 09:19:49,711 WARNING client_log_config.py warning
+2022-05-28 09:19:49,711 ERROR client_log_config.py error
+2022-05-28 09:19:49,711 CRITICAL client_log_config.py critical
+2022-05-28 09:19:58,875 INFO client.py Установено соединение с сервером, адрес: 127.0.0.1, порт: 7777
+2022-05-28 09:19:58,875 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1653693598.8758967, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-05-28 09:19:58,875 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-05-28 09:19:58,877 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1653693598.8770263, 'alert': 'Ok, I see you!'}
+2022-05-28 09:19:58,877 INFO client.py Статус ответа с сервера: 200
