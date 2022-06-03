@@ -1,0 +1,9 @@
+2022-06-03 11:39:48,212 INFO client.py Установено соединение с сервером, адрес: 127.0.0.1, порт: 7777
+2022-06-03 11:39:48,212 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654220388.2121053, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-03 11:39:48,212 DEBUG decorators.py Вызов функции send_data из модуля common.utils с параметрами: ({'action': 'presence', 'time': 1654220388.2121053, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}, <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65090), raddr=('127.0.0.1', 7777)>), {}Вызов из функции client
+2022-06-03 11:39:48,213 DEBUG decorators.py Функция send_data успешно завершена. Результат: None
+2022-06-03 11:39:48,213 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-03 11:39:48,213 DEBUG decorators.py Вызов функции get_data из модуля common.utils с параметрами: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65090), raddr=('127.0.0.1', 7777)>,), {}Вызов из функции client
+2022-06-03 11:39:48,213 DEBUG decorators.py Функция get_data успешно завершена. Результат: {'response': 200, 'time': 1654220388.213373, 'alert': 'Ok, I see you!'}
+2022-06-03 11:39:48,213 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654220388.213373, 'alert': 'Ok, I see you!'}
+2022-06-03 11:39:48,213 INFO client.py Статус ответа с сервера: 200

@@ -1,0 +1,11 @@
+2022-05-28 09:19:45,768 DEBUG server_log_config.py debug
+2022-05-28 09:19:45,768 INFO server_log_config.py info
+2022-05-28 09:19:45,768 WARNING server_log_config.py warning
+2022-05-28 09:19:45,768 ERROR server_log_config.py error
+2022-05-28 09:19:45,768 CRITICAL server_log_config.py critical
+2022-05-28 09:19:54,598 INFO server.py Сервер успешно запущен, порт: 7777; адрес, с которого принимаются подключения:  (если адрес не указан, подключения принимаются с любых адресов).
+2022-05-28 09:19:58,875 INFO server.py Установлено соедение с клиентом ('127.0.0.1', 54223)
+2022-05-28 09:19:58,875 INFO server.py От клиента ('127.0.0.1', 54223) получено сообщение {'action': 'presence', 'time': 1653693598.8758967, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-05-28 09:19:58,877 DEBUG server.py Обработка сообщения от клиента: {'action': 'presence', 'time': 1653693598.8758967, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-05-28 09:19:58,877 INFO server.py Запрос обработан успешно.
+2022-05-28 09:19:58,877 INFO server.py Клиенту отправлен ответ: {'response': 200, 'time': 1653693598.8770263, 'alert': 'Ok, I see you!'}
