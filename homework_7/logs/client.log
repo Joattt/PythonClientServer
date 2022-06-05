@@ -1,0 +1,109 @@
+2022-06-03 11:39:48,212 INFO client.py Установено соединение с сервером, адрес: 127.0.0.1, порт: 7777
+2022-06-03 11:39:48,212 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654220388.2121053, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-03 11:39:48,212 DEBUG decorators.py Вызов функции send_data из модуля common.utils с параметрами: ({'action': 'presence', 'time': 1654220388.2121053, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}, <socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65090), raddr=('127.0.0.1', 7777)>), {}Вызов из функции client
+2022-06-03 11:39:48,213 DEBUG decorators.py Функция send_data успешно завершена. Результат: None
+2022-06-03 11:39:48,213 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-03 11:39:48,213 DEBUG decorators.py Вызов функции get_data из модуля common.utils с параметрами: (<socket.socket fd=380, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65090), raddr=('127.0.0.1', 7777)>,), {}Вызов из функции client
+2022-06-03 11:39:48,213 DEBUG decorators.py Функция get_data успешно завершена. Результат: {'response': 200, 'time': 1654220388.213373, 'alert': 'Ok, I see you!'}
+2022-06-03 11:39:48,213 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654220388.213373, 'alert': 'Ok, I see you!'}
+2022-06-03 11:39:48,213 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:34:30,444 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: listen.
+2022-06-06 03:34:30,444 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: listen.
+2022-06-06 03:34:30,445 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: send.
+2022-06-06 03:34:30,445 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: send.
+2022-06-06 03:34:30,446 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450470.4468074, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:34:30,446 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450470.4458094, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:34:30,447 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:34:30,447 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:34:30,447 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:34:30,959 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450470.957356, 'alert': 'Ok, I see you!'}
+2022-06-06 03:34:30,959 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:34:30,961 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450470.9603524, 'alert': 'Ok, I see you!'}
+2022-06-06 03:34:30,961 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:34:30,963 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450470.962351, 'alert': 'Ok, I see you!'}
+2022-06-06 03:34:30,964 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:34:30,966 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450470.9653478, 'alert': 'Ok, I see you!'}
+2022-06-06 03:34:30,967 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:34:30,967 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:34:30,968 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:34:30,969 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:34:30,969 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:35:18,421 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1654450518.421264, 'account_name': 'Guest', 'message_text': 'сообщение'}
+2022-06-06 03:35:18,765 INFO client.py Получено сообщение от пользователя Guest:
+сообщение
+2022-06-06 03:35:18,765 INFO client.py Получено сообщение от пользователя Guest:
+сообщение
+2022-06-06 03:35:27,661 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1654450527.6618507, 'account_name': 'Guest', 'message_text': 'сообщение2'}
+2022-06-06 03:35:27,964 INFO client.py Получено сообщение от пользователя Guest:
+сообщение2
+2022-06-06 03:35:27,965 INFO client.py Получено сообщение от пользователя Guest:
+сообщение2
+2022-06-06 03:35:33,878 INFO client.py Пользователь завершил работу.
+2022-06-06 03:35:37,470 INFO client.py Пользователь завершил работу.
+2022-06-06 03:37:56,936 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: send.
+2022-06-06 03:37:56,942 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: listen.
+2022-06-06 03:37:56,942 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450676.9428225, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:37:56,943 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:37:56,947 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: send.
+2022-06-06 03:37:56,947 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450676.9478176, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:37:56,948 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:37:56,948 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450676.948817, 'alert': 'Ok, I see you!'}
+2022-06-06 03:37:56,948 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:37:56,949 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:37:56,956 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: listen.
+2022-06-06 03:37:56,957 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450676.9578068, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:37:56,957 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:37:56,958 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450676.9578068, 'alert': 'Ok, I see you!'}
+2022-06-06 03:37:56,958 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:37:56,958 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:37:57,439 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450677.4396439, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:37:57,441 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:37:57,442 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450677.4416058, 'alert': 'Ok, I see you!'}
+2022-06-06 03:37:57,443 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:37:57,445 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:37:57,967 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450677.9660747, 'alert': 'Ok, I see you!'}
+2022-06-06 03:37:57,967 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:37:57,968 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:38:27,709 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1654450707.7091963, 'account_name': 'Guest', 'message_text': 'test message 1'}
+2022-06-06 03:38:27,878 INFO client.py Получено сообщение от пользователя Guest:
+test message 1
+2022-06-06 03:38:27,880 INFO client.py Получено сообщение от пользователя Guest:
+test message 1
+2022-06-06 03:38:49,365 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1654450729.3653789, 'account_name': 'Guest', 'message_text': 'test message 2'}
+2022-06-06 03:38:49,826 INFO client.py Получено сообщение от пользователя Guest:
+test message 2
+2022-06-06 03:38:49,828 INFO client.py Получено сообщение от пользователя Guest:
+test message 2
+2022-06-06 03:40:41,025 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: listen.
+2022-06-06 03:40:41,026 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: send.
+2022-06-06 03:40:41,027 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: listen.
+2022-06-06 03:40:41,033 INFO client.py Запущен клиент, адрес сервера: 127.0.0.1, порт: 7777, режим: send.
+2022-06-06 03:40:41,534 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450841.534876, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:40:41,534 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450841.534876, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:40:41,534 DEBUG client.py Сформировано presence-сообщение от пользователя Guest: {'action': 'presence', 'time': 1654450841.534876, 'type': 'status', 'user': {'account_name': 'Guest', 'status': 'Hi, I am here!'}}
+2022-06-06 03:40:41,536 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:40:41,536 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:40:41,537 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:40:41,537 INFO client.py Presence-сообщение отправлено на сервер 127.0.0.1.
+2022-06-06 03:40:41,539 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450841.5388463, 'alert': 'Ok, I see you!'}
+2022-06-06 03:40:41,540 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:40:41,541 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:40:41,542 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450841.5418339, 'alert': 'Ok, I see you!'}
+2022-06-06 03:40:41,542 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:40:41,543 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:40:41,544 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450841.5438318, 'alert': 'Ok, I see you!'}
+2022-06-06 03:40:41,545 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:40:41,546 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:40:41,547 DEBUG client.py Разбор ответа от сервера: {'response': 200, 'time': 1654450841.5468283, 'alert': 'Ok, I see you!'}
+2022-06-06 03:40:41,547 INFO client.py Статус ответа с сервера: 200
+2022-06-06 03:40:41,549 INFO client.py Установлено соединение с сервером.
+2022-06-06 03:41:09,284 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1654450869.2849715, 'account_name': 'Guest', 'message_text': 'test 3'}
+2022-06-06 03:41:09,550 INFO client.py Получено сообщение от пользователя Guest:
+test 3
+2022-06-06 03:41:09,552 INFO client.py Получено сообщение от пользователя Guest:
+test 3
+2022-06-06 03:41:14,629 DEBUG client.py Сформирован словарь сообщения: {'action': 'message', 'time': 1654450874.6291852, 'account_name': 'Guest', 'message_text': 'test 4'}
+2022-06-06 03:41:14,637 INFO client.py Получено сообщение от пользователя Guest:
+test 4
+2022-06-06 03:41:14,639 INFO client.py Получено сообщение от пользователя Guest:
+test 4
